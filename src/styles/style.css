@@ -1,1 +1,166 @@
 /** CSS STYLE **/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Neucha', cursive;
+  font-weight: 400;  
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+p {
+  padding-bottom: 15px;
+}
+
+header {
+  position: relative;
+}
+
+.section {
+  position: relative;
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.bg:before {
+  content: '';
+
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  background: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+.img_main_block {
+  height: 525px;
+
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: 1;
+}
+
+.column {
+  margin-top: 195px;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #fe8a02;
+}
+
+.video_container {
+  height: 469px;
+  width: 919px;
+  margin: 0 auto;
+  position: relative;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.white {
+  color: #fff;
+}
+
+.twhite {
+  color: #d7ccc0;
+}
+
+.light {
+  color: #f5f4f0;
+}
+
+.orange {
+  color: #fe8a02
+}
+
+.dorange {
+  color: #42413c;
+}
+
+.dark {
+  color: #2a2626;
+}
+
+.tdark {
+  color: #908d8b;
+}
+
+.brown {
+  color: #b09a81;
+}
+
+.blue {
+  color: #1085c5;
+}
+
+.mb27 {
+  margin-bottom: 27px;
+}
+
+.pb0 {
+  padding-bottom: 0
+}
+
+.center {
+  text-align: center;
+}
