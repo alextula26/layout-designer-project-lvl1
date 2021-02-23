@@ -10,11 +10,13 @@ body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.6em;
-  color: #2a2626;
   overflow-x: hidden;
+
+  color: #2a2626;
+
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 }
 
 * {
@@ -23,22 +25,23 @@ body {
 }
 
 *,
-:after,
-:before {
+::after,
+::before {
   box-sizing: border-box;
 }
 
 a {
-  text-decoration: none;
   color: #2a2626;
+
+  text-decoration: none;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Neucha", cursive;
   font-weight: 400;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
@@ -60,16 +63,18 @@ h4 {
 
 .section {
   position: relative;
+
   width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
 }
 
 .section .head {
-  padding: 0 10px;
   margin-bottom: 20px;
-  font-size: 14px;
+  padding: 0 10px;
+
   font-weight: 700;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -77,22 +82,22 @@ h4 {
   position: relative;
 }
 
-.bg:before {
-  content: "";
+.bg::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 
   width: 100%;
   height: 100%;
-
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;  
 
   background: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
   opacity: 0.1;
+
+  content: "";
 }
 
 header {
@@ -100,19 +105,21 @@ header {
 }
 
 header img {
-  height: 525px;
-
   position: absolute;
   top: 55px;
   right: -270px;
   z-index: 1;
+
+  height: 525px;
 }
 
 .video-container {
-  height: 469px;
-  width: 919px;
-  margin: 0 auto;
   position: relative;
+
+  width: 919px;
+  height: 469px;
+
+  margin: 0 auto;
 }
 
 .video-container .video {
@@ -124,6 +131,7 @@ header img {
 
 #navigation {
   padding: 200px 165px 80px;
+
   background-color: #42413c;
 }
 
@@ -140,8 +148,8 @@ header img {
   display: block;
   flex: 0 0 33.3333333333%;
   max-width: 33.3333333333%;
-  padding: 0 15px;
   margin-bottom: 20px;
+  padding: 0 15px;
 }
 
 #navigation .navigation-header .item-content {
@@ -165,16 +173,19 @@ header img {
 #navigation .item .count {
   display: block;
   margin-bottom: 40px;
-  font-size: 64px;
+
   font-weight: 400;
-  font-family: "Neucha";
+  font-size: 64px;
+  font-family: "Neucha", cursive;
+
   line-height: 1;
 }
 
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  font-weight: bold;
+
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -279,5 +290,5 @@ header img {
 }
 
 .shadow {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
