@@ -124,7 +124,7 @@ header img {
 
 #navigation {
   padding: 200px 165px 80px;
-  background: #42413c;
+  background-color: #42413c;
 }
 
 #navigation .navigation-container {
@@ -190,7 +190,7 @@ header img {
   column-gap: 30px;
 }
 
-.break_inside_avoid {
+.break-inside-avoid {
   break-inside: avoid;
 }
 
@@ -230,11 +230,11 @@ header img {
   color: #1085c5;
 }
 
-.bg_white {
+.bg-white {
   background-color: #fff;
 }
 
-.bg_brown {
+.bg-brown {
   background-color: #b09a81;
 }
 
