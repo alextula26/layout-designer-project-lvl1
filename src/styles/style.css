@@ -228,6 +228,10 @@ header img {
   color: #1085c5;
 }
 
+.bg_white {
+  background-color: #fff;
+}
+
 .bg_brown {
   background-color: #b09a81;
 }
