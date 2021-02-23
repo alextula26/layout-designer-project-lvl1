@@ -174,11 +174,6 @@ header img {
   font-size: 52px;
 }
 
-#ikea-effect img {
-  vertical-align: middle;
-  margin-right: 30px;
-}
-
 .d-flex {
   display: flex;
 }
@@ -258,6 +253,10 @@ header img {
 
 .mb100 {
   margin-bottom: 100px;
+}
+
+.mr30 {
+  margin-right: 30px;
 }
 
 .pb0 {
