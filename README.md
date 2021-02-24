@@ -20,3 +20,14 @@ $ make install
 ```sh
 make lint
 ```
+## Run deploy
+
+```sh
+make deploy
+```
+
+## Link to surge
+
+```sh
+gruesome-guitar.surge.sh
+```
