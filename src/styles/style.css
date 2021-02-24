@@ -212,7 +212,7 @@ header img {
 }
 
 footer form {
-  margin-bottom: 60px;
+  margin-bottom: 76px;
   padding: 38px 40px 55px;
 
   background-color: #42413c;
@@ -259,8 +259,7 @@ footer form button::before {
   content: "";
 }
 
-footer form span,
-footer form span a {
+footer form span {
   color: #fff;
 
   font-size: 12px;
