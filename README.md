@@ -30,5 +30,5 @@ make deploy
 ## Link to surge
 
 ```sh
-aloof-week.surge.sh
+elfin-wool.surge.sh
 ```
