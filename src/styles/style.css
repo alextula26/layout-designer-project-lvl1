@@ -131,7 +131,7 @@ header img {
   position: absolute;
   top: 55px;
   right: -270px;
-  z-index: 1;
+  z-index: 0;
 
   height: 525px;
 }
