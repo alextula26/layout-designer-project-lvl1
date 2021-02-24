@@ -202,6 +202,8 @@ header img {
   display: block;
   margin-bottom: 40px;
 
+  color: #42413c;
+
   font-weight: 400;
   font-size: 64px;
   font-family: "Neucha", cursive;
@@ -210,7 +212,7 @@ header img {
 }
 
 footer form {
-  margin-bottom: 76px;
+  margin-bottom: 60px;
   padding: 38px 40px 55px;
 
   background-color: #42413c;
@@ -237,11 +239,8 @@ footer form button {
   position: relative;
 
   width: 70px;
-  height: 50px;
 
   border: none;
-
-  background-color: #fe8a02;
 }
 
 footer form button::before {
@@ -260,7 +259,8 @@ footer form button::before {
   content: "";
 }
 
-footer form span {
+footer form span,
+footer form span a {
   color: #fff;
 
   font-size: 12px;
