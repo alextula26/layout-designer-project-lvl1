@@ -202,6 +202,8 @@ header img {
   display: block;
   margin-bottom: 40px;
 
+  color: #42413c;
+
   font-weight: 400;
   font-size: 64px;
   font-family: "Neucha", cursive;
@@ -260,7 +262,8 @@ footer form button::before {
   content: "";
 }
 
-footer form span {
+footer form span,
+footer form span a {
   color: #fff;
 
   font-size: 12px;
