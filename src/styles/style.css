@@ -30,10 +30,6 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  color: #1085c5;
-}
-
 h1,
 h2,
 h3,
@@ -181,6 +177,8 @@ header h1 {
 }
 
 #navigation .navigation-container .item {
+  color: #2a2626;
+
   text-decoration: none;
 
   cursor: pointer;
@@ -278,6 +276,10 @@ footer form span a {
 footer .contacts {
   font-size: 14px;
   text-align: center;
+}
+
+footer .contacts a {
+  color: #1085c5;
 }
 
 .btn {
