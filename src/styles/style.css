@@ -93,10 +93,11 @@ h4 {
 
 .section .head {
   margin-bottom: 20px;
-  padding: 0 10px;
+  padding: 6px 10px;
 
   font-weight: 700;
   font-size: 14px;
+  line-height: 1em;
   text-transform: uppercase;
 }
 
@@ -135,8 +136,7 @@ header img {
   height: 525px;
 }
 
-header h1,
-header .column {
+header h1 {
   position: relative;
   z-index: 2;
 }
@@ -300,6 +300,8 @@ footer .contacts {
 }
 
 .column {
+  line-height: 26px;
+
   column-count: 2;
   column-gap: 30px;
 }
