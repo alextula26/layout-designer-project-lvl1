@@ -356,6 +356,10 @@ footer .contacts a {
   background-color: #b09a81;
 }
 
+.bg-light {
+  background-color: #f5f4f0;
+}
+
 .mb16 {
   margin-bottom: 16px;
 }
