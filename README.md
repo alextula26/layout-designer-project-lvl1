@@ -30,5 +30,5 @@ make deploy
 ## Link to surge
 
 ```sh
-elfin-wool.surge.sh
+shrill-balls.surge.sh
 ```
