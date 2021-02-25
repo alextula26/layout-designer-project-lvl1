@@ -1,7 +1,7 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "cognitive-distortions",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "Project on the layout of the landing page Cognitive distortions using html5/css3",
   "repository": {
     "type": "git",
     "url": "https://github.com/alextula26/layout-designer-project-lvl1.git"
