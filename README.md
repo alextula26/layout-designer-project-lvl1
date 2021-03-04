@@ -14,17 +14,17 @@ $ make install
 ## Run lint
 
 ```sh
-make lint
+$ make lint
 ```
 
 ## Run deploy
 
 ```sh
-make deploy
+$ make deploy
 ```
 
 ## Link to surge
 
 ```sh
-shrill-balls.surge.sh
+axiomatic-pickle.surge.sh
 ```
