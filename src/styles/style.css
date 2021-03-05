@@ -260,6 +260,23 @@ footer .contacts a {
   color: #1085c5;
 }
 
+.column {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.column p {
+  line-height: 25px;
+}
+
+header .column p {
+  margin-bottom: 16px;
+}
+
+.column p:first-child {
+  break-after: column;
+}
+
 .bg {
   position: relative;
 }
@@ -293,23 +310,16 @@ footer .contacts a {
   background-color: #fe8a02;
 }
 
+header .btn {
+  margin-top: 24px;
+}
+
 .d-flex {
   display: flex;
 }
 
 .space-between {
   justify-content: space-between;
-}
-
-.column {
-  line-height: 25px;
-
-  column-count: 2;
-  column-gap: 30px;
-}
-
-.break-inside-avoid {
-  break-inside: avoid;
 }
 
 .white {
@@ -370,10 +380,6 @@ footer .contacts a {
 
 .mb34 {
   margin-bottom: 34px;
-}
-
-.mb40 {
-  margin-bottom: 40px;
 }
 
 .mb100 {
